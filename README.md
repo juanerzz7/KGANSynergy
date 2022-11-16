@@ -15,3 +15,14 @@ scipy == 1.5.3<br>
 * [Cell-protein](https://maayanlab.cloud/Harmonizome/dataset/CCLE+Cell+Line+Gene+Expression+Profiles) Associations is harvested from the Cancer Cell Line Encyclopedia.
 * Protein-Protein Interaction Network is a comprehensive human interactome network.
 * Drug-protein Associations are based on FDA-approved or clinically investigational drugs.
+
+## Default parameters of the scripts
+Parameter  | DrugCombDB  | Oncology-Screen
+ ---- | ----- | ------  
+ Batch size  | 1024 | 32 
+ Learning rate  | 0.001 | 0.0001   
+ Dim  | 128 | 64   
+ Layer  | 2 | 2   
+ L2 weight  | 1e-4 | 1e-4   
+ Optimizer  | Adam | Adam   
+ Number of multi-head  | 2 | 2   
