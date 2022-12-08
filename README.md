@@ -18,10 +18,17 @@ scipy == 1.5.3<br>
 * Protein-Protein Interaction Network is a comprehensive human interactome network.
 * Drug-protein Associations are based on FDA-approved or clinically investigational drugs.
 
+
+
 ## Running the code
 ```
 python train.py
 ```
+
+## Other important files
+* model.py --KGANSynergy architecture
+* load_gat.py -- Read drug combination data and knowledge graph data
+* dataloader4KGNN.py --Generate knowledge graph index and adjacency list
 
 ## Default parameters of the scripts
 Parameter  | DrugCombDB  | Oncology-Screen
