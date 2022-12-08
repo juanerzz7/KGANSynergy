@@ -18,6 +18,11 @@ scipy == 1.5.3<br>
 * Protein-Protein Interaction Network is a comprehensive human interactome network.
 * Drug-protein Associations are based on FDA-approved or clinically investigational drugs.
 
+## Running the code
+'''
+python train.py
+'''
+
 ## Default parameters of the scripts
 Parameter  | DrugCombDB  | Oncology-Screen
  ---- | ----- | ------  
@@ -27,4 +32,5 @@ Parameter  | DrugCombDB  | Oncology-Screen
  Layer  | 2 | 2   
  L2 weight  | 1e-4 | 1e-4   
  Optimizer  | Adam | Adam   
- Number of multi-head  | 2 | 2   
+ 
+ 
