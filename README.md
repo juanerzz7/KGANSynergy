@@ -19,9 +19,9 @@ scipy == 1.5.3<br>
 * Drug-protein Associations are based on FDA-approved or clinically investigational drugs.
 
 ## Running the code
-'''
+```
 python train.py
-'''
+```
 
 ## Default parameters of the scripts
 Parameter  | DrugCombDB  | Oncology-Screen
