@@ -21,7 +21,7 @@ scipy == 1.5.3<br>
 
 ### Processed data
 * rating_final.txt --Drug combination data
-* kg_final2.txt --Knowledge graph data
+* kg_final2.txt --Knowledge graph triple
 
 ## Running the code
 ```
