@@ -12,13 +12,16 @@ h5py == 3.1.0<br>
 scipy == 1.5.3<br>
 
 ## Dataset
+### Original data
 * [DrugCombDB](http://drugcombdb.denglab.org/main) is a database with the largest number of drug combinations to date.
 * [Oncology-Screen](http://www.bioinf.jku.at/software/DeepSynergy/) is an unbiased oncology compound screen datasets.
 * [Cell-protein Associations](https://maayanlab.cloud/Harmonizome/dataset/CCLE+Cell+Line+Gene+Expression+Profiles) is harvested from the Cancer Cell Line Encyclopedia.
 * Protein-Protein Interaction Network is a comprehensive human interactome network.
 * Drug-protein Associations are based on FDA-approved or clinically investigational drugs.
 
-
+### Processed data
+* rating_final.txt --Drug combination data
+* kg_final2.txt --Knowledge graph data
 
 ## Running the code
 ```
