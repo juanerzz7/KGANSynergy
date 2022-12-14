@@ -11,6 +11,7 @@ numpy == 1.14.0<br>
 pytorch == 1.6.0<br>
 h5py == 3.1.0<br>
 scipy == 1.5.3<br>
+scikit-learn == 0.24.2<br>
 
 ## Dataset
 ### Original data
