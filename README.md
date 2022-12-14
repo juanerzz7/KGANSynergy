@@ -1,7 +1,7 @@
 # KGANSynergy
 This is the implementation code of KGANSynergy, a novel end-to-end Knowledge Graph Attention Network for Drug Synergy (KGANSynergy), which utilizes neighbor information of known drugs/cell lines effectively. KGANSynergy uses knowledge graph (KG) hierarchical propagation to find multi-source neighbor nodes for drugs and cell lines. The knowledge graph attention network is designed to distinguish the importance of neighbors in a KG through a multi-attention mechanism and then aggregate the entity’s neighbor node information to enrich the entity. Finally, the learned drug and cell line embeddings can be utilized to predict the synergy of drug combinations.
 
-[The framework of KGANSynergy](https://github.com/juanerzz7/KGANSynergy/blob/main/fig.pdf)
+![image](https://github.com/juanerzz7/KGANSynergy/blob/main/fig.jpg)
 
 ## Environment Requirement
 Python == 3.6<br>
