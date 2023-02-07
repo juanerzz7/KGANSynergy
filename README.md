@@ -41,7 +41,7 @@ Parameter  | DrugCombDB  | Oncology-Screen
  Batch size  | 1024 | 32 
  Learning rate  | 0.001 | 0.0001   
  Dim  | 128 | 64   
- Layer  | 2 | 2   
+ Layer  | 2 | 3   
  L2 weight  | 1e-4 | 1e-4   
  Optimizer  | Adam | Adam   
  
