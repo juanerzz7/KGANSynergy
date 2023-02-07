@@ -22,7 +22,7 @@ scikit-learn == 0.24.2<br>
 * Drug-protein Associations are based on FDA-approved or clinically investigational drugs.
 
 ### Processed data
-* rating_final.txt --Drug combination data
+* comb_final.txt --Drug combination data
 * kg_final2.txt --Knowledge graph triple
 
 ## Running the code
