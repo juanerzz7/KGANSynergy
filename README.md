@@ -27,7 +27,7 @@ scikit-learn == 0.24.2<br>
 
 ## Running the code
 ```
-python train.py
+python run.py
 ```
 
 ## Other important files
